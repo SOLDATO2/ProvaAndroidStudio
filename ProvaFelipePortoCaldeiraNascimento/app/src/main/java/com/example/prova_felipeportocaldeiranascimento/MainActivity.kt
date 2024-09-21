@@ -153,7 +153,8 @@ fun ListaDeProdutos(navController: NavController, produtos: List<Produto>) {
             navController.navigate("estatisticasDosProdutos/$valorTotal/$quantidadeTotal")
 
 
-        }) {
+        }, modifier = Modifier.padding(10.dp)) {
+
             Text("Estatísticas")
         }
 
